@@ -3,23 +3,24 @@ Shine-MP3-Encoder-on-AS3-Alchemy
 
 Flash/Alchemy port of the lightweight Shine MP3 Encoder
 
-Taken from:
-https://code.google.com/p/flash-kikko/
+##Readme
+from: https://code.google.com/p/flash-kikko/
 
-## Description
+### Description
 Shine (formely 8hz-MP3) is a simple lightweight C-based MP3 encoder made by LAME developer Gabriel Bouvigne.
 
-Description of Shine on his website:
+#### Description of Shine on his website:
 
-The goal of this encoder was not quality, but simplicity. I tryed to simplify the encoding process as much as possible. So Shine is then a good starting point when a programmer needs a very simple MP3 encoder
-This Alchemy port features:
+> The goal of this encoder was not quality, but simplicity. I tryed to simplify the encoding process as much as possible. So Shine is then a good starting point when a programmer needs a very simple MP3 encoder
+
+#### This Alchemy port features:
 * MP3 encoding of mono and stereo WAVs (no time limit)
 * non-blocking encoding for progress status in flash
 * errors automatically sent to flash for easy log/debug
 
 Also, thanks to Bernard Hilger Visscher for his very helpful blog post http://blog.debit.nl/?p=67
 
-## Usage
+### Usage
 ```actionscript
 import fr.kikko.lab.ShineMP3Encoder;
 
